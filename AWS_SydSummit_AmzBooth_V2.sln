@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS_SydSummit_AmzBooth_V2", "AWS_SydSummit_AmzBooth_V2.csproj", "{933283EA-3BBF-3B5F-456F-928E8F40412D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS_SydSummit_AmzBooth_V2.Editor", "AWS_SydSummit_AmzBooth_V2.Editor.csproj", "{3C4EA7D8-F1FC-A4F9-96C2-7C67CD9FB377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{933283EA-3BBF-3B5F-456F-928E8F40412D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933283EA-3BBF-3B5F-456F-928E8F40412D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933283EA-3BBF-3B5F-456F-928E8F40412D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933283EA-3BBF-3B5F-456F-928E8F40412D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4EA7D8-F1FC-A4F9-96C2-7C67CD9FB377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4EA7D8-F1FC-A4F9-96C2-7C67CD9FB377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4EA7D8-F1FC-A4F9-96C2-7C67CD9FB377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4EA7D8-F1FC-A4F9-96C2-7C67CD9FB377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

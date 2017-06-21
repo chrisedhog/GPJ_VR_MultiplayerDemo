@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS_SydSummit_AmzBooth_V4.Plugins", "AWS_SydSummit_AmzBooth_V4.Plugins.csproj", "{71050F6A-80BA-BE9C-1EDA-6D62DE26926B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS_SydSummit_AmzBooth_V4", "AWS_SydSummit_AmzBooth_V4.csproj", "{37C5077C-4A51-4D4C-4B56-123402280EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS_SydSummit_AmzBooth_V4.Editor", "AWS_SydSummit_AmzBooth_V4.Editor.csproj", "{6DC90EEC-30E3-DF71-43A0-786D5DDE455B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71050F6A-80BA-BE9C-1EDA-6D62DE26926B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71050F6A-80BA-BE9C-1EDA-6D62DE26926B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71050F6A-80BA-BE9C-1EDA-6D62DE26926B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71050F6A-80BA-BE9C-1EDA-6D62DE26926B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C5077C-4A51-4D4C-4B56-123402280EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C5077C-4A51-4D4C-4B56-123402280EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C5077C-4A51-4D4C-4B56-123402280EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C5077C-4A51-4D4C-4B56-123402280EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC90EEC-30E3-DF71-43A0-786D5DDE455B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC90EEC-30E3-DF71-43A0-786D5DDE455B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC90EEC-30E3-DF71-43A0-786D5DDE455B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC90EEC-30E3-DF71-43A0-786D5DDE455B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
