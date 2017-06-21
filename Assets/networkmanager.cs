@@ -2,16 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class networkmanager : MonoBehaviour {
+public class networkmanager : MonoBehaviour
+{
 
     public GameObject headPrefab;
+    public GameObject leftHandPrefab;
+    public GameObject rightHandPrefab;
 
     public byte Version = 1;
 
 
     public virtual void Start()
     {
-            PhotonNetwork.ConnectUsingSettings(Version + "." + SceneManagerHelper.ActiveSceneBuildIndex);
+        PhotonNetwork.ConnectUsingSettings(Version + "." + SceneManagerHelper.ActiveSceneBuildIndex);
     }
 
 
@@ -47,6 +50,8 @@ public class networkmanager : MonoBehaviour {
     public void OnJoinedRoom()
     {
         PhotonNetwork.Instantiate(headPrefab.name, ViveManager.Instance.head.transform.position, ViveManager.Instance.head.transform.rotation, 0);
+        PhotonNetwork.Instantiate(leftHandPrefab.name, ViveManager.Instance.leftHand.transform.position, ViveManager.Instance.leftHand.transform.rotation, 0);
+        PhotonNetwork.Instantiate(rightHandPrefab.name, ViveManager.Instance.rightHand.transform.position, ViveManager.Instance.rightHand.transform.rotation, 0);
         Debug.Log("OnJoinedRoom() called by PUN. Now this client is in a room. From here on, your game would be running. For reference, all callbacks are listed in enum: PhotonNetworkingMessage");
     }
 }
